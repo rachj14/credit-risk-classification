@@ -12,3 +12,4 @@
 - Recall score: 0.89 - A high recall indicates that the model is good at identifying positive instances (healthy loans), even if it means more false positives (risk loans predicted as healthy loans).
 
 ## Summary:
+I would recommend this model as there is a fairly high precision and recall score, but would require further verification of the loans to determine if they are healthy or at risk of defaulting. Predicting performance depends on the problem trying to be solved - in this instance, it would probably be just as important identifying at-risk loans that are appearing as healthy loans (as you don't want to approve a loan that appears healthy but is actually at-risk of defaulting), as it is to identify healthy loans that are appearing as at-risk loans (as you don't want to observe and not approve a loan that is actually healthy but is appearing as at-risk).
